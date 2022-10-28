@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'rubik';
+}
+
+svg{
+
+ width: 100vh;
+ z-index: 4;
+}
+header{
+    padding-top: 2%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("img/fond_header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #c9c9c9;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    font-weight: 400;
+    font-size: 25px;
+    color: wheat;
+    width: 40%;
+}
+nav{
+    z-index: 10;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    color: wheat;
+}
+li{
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+header nav a:hover{
+    border-bottom: solid 1px #FFDE93;
+    color: wheat;
+}
+
+.me{
+
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header .reseaux{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+  }
+  header .reseaux a{
+    width: 30px;
+    height: 30px;
+}
+header .reseaux img{
+    width: 80px;
+    height: 80px;
+}
+.nom{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.me-image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.me .me-image img{
+    height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    z-index: 10;
+}
+.me svg{
+    z-index: 2;
+    position: absolute;
+    margin-top: -5%;
+    width: 50%;
+    height: 50%;
+}
+.me h1{
+    padding-bottom: 10%;
+    color: #c9cadb;
+}
+.me p {
+    color: #ffffff;
+}
+.wave-header, .wave-aboutme, .wave-project{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.aboutme{
+    z-index: 2;
+    background-image: url("img/fond_me.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container-me{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7%;
+}
+.renseignement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;  
+}
+h6{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 5%;
+}
+ h4{
+    color: #747cdf;
+    font-size: 19px;
+    padding-bottom: 10%;
+ }
+
+ p{
+    color: #c9c9c9;
+    font-size: 14px;
+ }
+
+.cv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+
+.cv img, .description img{
+    width: 40%;
+    height: 75%;
+}
+.description{
+    width: 50%;
+    height: 100%;
+}
+
+.project{
+    z-index: 1;
+    background-image: url("img/fond_project.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.project-me{
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    height: 90%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 70%;
+    border-radius: 12px;
+    margin-top: 3%;
+    position: absolute;
+}
+
+.project-contenu{
+    border-radius: 12px;
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    color: #c9c9c9;
+
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 (#001b2a);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+
+}
+.project-contenu:hover{
+    filter: blur(2px);
+}
+
+.project-contenu img{
+    width: 100%;
+    height: 50%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.project-contenu h1{
+    height: 1%;
+    width: 80%;
+    color: #747cdf;
+    font-size: 15px;
+}
+
+.project-contenu p{
+    width: 80%;
+    color: #c9c9c9;
+    font-size: 12px;
+}
+
+.project-contenu a{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    width: 20%;    
+    height: 5%;
+    font-size: 10px;
+    background-color: blue;
+    border: #F7E5FF solid 1px;
+}
+
+
+.contact{
+    z-index: -1;
+    background-image: url("img/fond_contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 30px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 (#001b2a);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 70%;
+  }
+  form h1 {
+    font-size: 20px;
+    color: #747cdf;
+  }
+  form .separation {
+    width: 100%;
+    height: 1px;
+    background-color: #747cdf;
+  }
+  form .corps-formulaire {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  form .corps-formulaire .groupe {
+    position: relative; /* Pour mettre positionner l’élément dans le flux normal de la page */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  form .corps-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid #c9c9c9;
+    outline-color: #747cdf;
+    color: #000000;
+    border-radius: 5px;
+  }
+  form .corps-formulaire .gauche .groupe i {
+    position: absolute; /* positionné par rapport à son parent le plus proche positionné */
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+    color: #000000;
+  }
+  form .corps-formulaire .droite {
+    margin-left: 40px;
+  }
+  form .corps-formulaire .droite .groupe {
+    height: 100%;
+  }
+  form .corps-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #747cdf;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 72%;
+  }
+  form .pied-formulaire button {
+    margin-top: 10px;
+    background-color: #747cdf;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+  }
+  form .pied-formulaire button:hover {
+    transform: scale(1.05);
+  }
+
+  footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("img/fond_contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+    footer .reseaux{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+  }
+  footer a{
+    width: 7%;
+    height: 40%;
+  }
+  footer img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 920px) {
+    form .corps-formulaire .droite {
+      margin-left: 0px;
+    }
+  }
