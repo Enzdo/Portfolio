@@ -181,8 +181,8 @@ header .reseaux{
     height: 30px;
 }
 header .reseaux img{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 .nom{
     z-index: 2;
@@ -205,8 +205,9 @@ header .reseaux img{
 .photo-moi video{
     /* border: white 3px solid; */
     transform: rotate(-10deg);
-    height: 70%;
-    width: 70%;
+    height: 50%;
+    width: 50%;
+    
     filter: hue-rotate(60deg);
 
 }
@@ -652,8 +653,8 @@ form {
     height: 40%;
   }
   footer img{
-    width: 100%;
-    height: 100%;
+    width: 85px;
+    height: 85px;
   }
   
   /*Stying for small screens*/
@@ -664,7 +665,7 @@ form {
         color: white;
     }
     .nav-links li a{
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         margin: 0 0.7vw;
     }
@@ -680,7 +681,7 @@ form {
     }
     .nav-links{
         position: fixed;
-        background: #131418;
+        background: #ffffff;
         height: 100%;
         width: 100vw;
         flex-direction: column;
@@ -828,7 +829,7 @@ form {
       }
       form{
         margin-top: 5%;
-        width: 95%;
+        width: 80%;
         height: 100%;
       }
       form .corps-formulaire{
