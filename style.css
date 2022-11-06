@@ -742,6 +742,9 @@ form {
     li.fade{
         opacity: 1;
     }
+    .portfolio{
+        display: none;
+    }
     
     .me{
         flex-direction: column;
@@ -823,14 +826,14 @@ form {
         text-decoration: none;
       }
       .card{
-        width: 90%;
+        width: 100%;
         height: 100%;
       }
       .card h3{
         font-size: 12px;
       }
-      .card p{
-        font-size: 6px;
+      .card__category{
+        font-size: 8px;
       }
       .card__heading{
         color: white;
@@ -843,6 +846,7 @@ form {
         padding-top: 10px;
       }
       .Description{
+        font-size: 9px;
         margin-top: 10%;
       }
       form{
@@ -865,5 +869,29 @@ form {
       }
       form .corps-formulaire .gauche {
         width: 90%;
+      }
+
+      footer{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        background-color: #2d2d31;
+      }
+        footer .reseaux{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+      }
+      footer a{
+        width: 7%;
+        height: 40%;
+      }
+      footer img{
+        width: 45px;
+        height: 45px;
       }
 }
